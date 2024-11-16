@@ -8,6 +8,5 @@ system.simulation()
 ani, fig = system.animation()
 plt.tight_layout()
 plt.show()
-writer = FFMpegWriter(fps=30, metadata=dict(artist='Margareta'), bitrate=1800)
-ani.save("normalni_modovi.mp4", writer=writer)
-
+#writer = FFMpegWriter(fps=20, metadata=dict(artist='Margareta'), bitrate=1800)
+#ani.save("normalni_modovi.mp4", writer=writer)
